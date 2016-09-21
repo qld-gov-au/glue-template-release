@@ -1,0 +1,17 @@
+{
+  "name": "glue-template-release",
+  "homepage": "https://github.com/qld-gov-au/glue-template-release.git",
+  "authors": [
+    "AsifAmin asif.amin@dsiti.qld.gov.au"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
