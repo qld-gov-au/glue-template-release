@@ -8105,7 +8105,7 @@ a {
   a:hover {
     color: #0066CC; }
 
-body:not([data-qg-accessibility=false]) a:not(.btn)[target=_blank]:after, body:not([data-qg-accessibility=false]) a:not(.btn)[href^="http://"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) a:not(.btn)[href^="https://"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) a:not(.btn)[href^="//"]:not([href*="qld.gov.au"]):after {
+body:not([data-qg-accessibility=false]) #qg-content a:not(.btn):not(.qg-accessibility-off)[target=_blank]:after, body:not([data-qg-accessibility=false]) #qg-content a:not(.btn):not(.qg-accessibility-off)[href^="http://"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) #qg-content a:not(.btn):not(.qg-accessibility-off)[href^="https://"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) #qg-content a:not(.btn):not(.qg-accessibility-off)[href^="//"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) a.qg-accessibility-on[target=_blank]:after, body:not([data-qg-accessibility=false]) a.qg-accessibility-on[href^="http://"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) a.qg-accessibility-on[href^="https://"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) a.qg-accessibility-on[href^="//"]:not([href*="qld.gov.au"]):after {
   display: inline-block;
   margin-left: 0.1em;
   padding: 0 0.1em 0 0.2em;
@@ -8120,13 +8120,13 @@ body:not([data-qg-accessibility=false]) a:not(.btn)[target=_blank]:after, body:n
   font-weight: normal;
   text-decoration: none; }
 
-body:not([data-qg-accessibility=false]) a:not(.btn)[href^="http://"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) a:not(.btn)[href^="https://"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) a:not(.btn)[href^="//"]:not([href*="qld.gov.au"]):after {
+body:not([data-qg-accessibility=false]) #qg-content a:not(.btn):not(.qg-accessibility-off)[href^="http://"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) #qg-content a:not(.btn):not(.qg-accessibility-off)[href^="https://"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) #qg-content a:not(.btn):not(.qg-accessibility-off)[href^="//"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) a.qg-accessibility-on[href^="http://"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) a.qg-accessibility-on[href^="https://"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) a.qg-accessibility-on[href^="//"]:not([href*="qld.gov.au"]):after {
   content: " \f08e "; }
 
-body:not([data-qg-accessibility=false]) a:not(.btn)[target=_blank]:after {
+body:not([data-qg-accessibility=false]) #qg-content a:not(.btn):not(.qg-accessibility-off)[target=_blank]:after, body:not([data-qg-accessibility=false]) a.qg-accessibility-on[target=_blank]:after {
   content: " \f196 "; }
 
-body:not([data-qg-accessibility=false]) a:not(.btn)[target=_blank][href^="http://"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) a:not(.btn)[target=_blank][href^="https://"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) a:not(.btn)[target=_blank][href^="//"]:not([href*="qld.gov.au"]):after {
+body:not([data-qg-accessibility=false]) #qg-content a:not(.btn):not(.qg-accessibility-off)[target=_blank][href^="http://"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) #qg-content a:not(.btn):not(.qg-accessibility-off)[target=_blank][href^="https://"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) #qg-content a:not(.btn):not(.qg-accessibility-off)[target=_blank][href^="//"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) a.qg-accessibility-on[target=_blank][href^="http://"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) a.qg-accessibility-on[target=_blank][href^="https://"]:not([href*="qld.gov.au"]):after, body:not([data-qg-accessibility=false]) a.qg-accessibility-on[target=_blank][href^="//"]:not([href*="qld.gov.au"]):after {
   content: " \f196  \f08e "; }
 
 .btn {
@@ -9215,7 +9215,7 @@ header .alert {
     border: #0B2E4C;
     -webkit-transition: all .2s;
     transition: all .2s; }
-    #qg-feedback #page-feedback-useful:hover {
+    #qg-feedback #page-feedback-useful:hover, #qg-feedback #page-feedback-useful:focus {
       background-color: #0B2E4C; }
   #qg-feedback h2 {
     display: inline;
@@ -9241,6 +9241,8 @@ header .alert {
   color: #000;
   font-size: 16px;
   font-size: 1rem; }
+  #qg-page-feedback .questions abbr.required {
+    left: 0; }
   #qg-page-feedback #qg-page-feedback-form {
     padding-top: 1em;
     padding-bottom: 1em; }

@@ -1,6 +1,6 @@
 {
   "name": "glue-template-release",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "glue template",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/qld-gov-au/glue-template-release.git"
   },
-  "author": "Asif Amin <asif.amin@dsiti.qld.gov.au> (http://test.com)",
+  "author": "Asif Amin <asif.amin@dsiti.qld.gov.au>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/qld-gov-au/glue-template-release/issues"
