@@ -9527,8 +9527,6 @@ header .alert {
   .qg-more-info a:hover {
     color: #FFF;
     text-decoration: underline; }
-  .qg-more-info div:nth-child(2n) {
-    background-color: #0B2E4C; }
   .qg-more-info div h3 {
     font-size: 19px;
     font-size: 1.1875rem;
@@ -9551,7 +9549,7 @@ header .alert {
   .qg-more-info .qg-toggle-carret {
     float: right; }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .qg-more-info .qg-toggle-carret {
     display: none; }
   .qg-more-info ul.collapse {
@@ -9583,60 +9581,13 @@ header .alert {
     text-decoration: underline;
     color: #000; }
 
-@media (max-width: 991px) {
-  ul.col-2 {
-    list-style: none;
-    padding-left: 0;
-    -webkit-column-count: 1 !important;
-    -moz-column-count: 1 !important;
-    column-count: 1 !important; } }
-
-.qg-more-info {
-  background-color: #0B2E4C;
-  color: #FFF; }
-  .qg-more-info a, .qg-more-info a:link {
-    color: #FFF;
-    text-decoration: none; }
-  .qg-more-info a:hover {
-    color: #FFF;
-    text-decoration: underline; }
-  .qg-more-info div:nth-child(2n) {
-    background-color: #0b3253; }
-  .qg-more-info div h3 {
-    font-size: 19px;
-    font-size: 1.1875rem;
-    border-bottom: 1px solid #FFF;
-    padding-top: 1em;
-    padding-bottom: .5em; }
-  .qg-more-info div ul {
-    list-style: none;
-    padding-left: 0; }
-  .qg-more-info div ul.col-2 {
-    list-style: none;
-    padding-left: 0;
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2; }
-  .qg-more-info div li {
-    padding: .5em .3em; }
-
-.qg-legal {
-  margin-top: 1em;
-  text-align: center;
-  font-size: 11px;
-  font-size: 0.6875rem; }
-  .qg-legal .row, .qg-legal #qg-site-header {
-    background-color: #FFF; }
-  .qg-legal ul {
-    margin-top: 1em; }
-    .qg-legal ul li {
-      padding: .3em .8em;
-      margin: 0; }
-    .qg-legal ul li + li {
-      border-left: 1px solid #999; }
+@media (min-width: 992px) {
+  .qg-more-info ul.collapse {
+    display: block !important;
+    height: auto !important; } }
 
 @media (max-width: 991px) {
-  ul.col-2 {
+  .qg-more-info ul.col-2 {
     list-style: none;
     padding-left: 0;
     -webkit-column-count: 1 !important;

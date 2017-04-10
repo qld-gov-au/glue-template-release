@@ -1,6 +1,6 @@
 {
   "name": "glue-template-release",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "glue template",
   "main": "index.js",
   "scripts": {
