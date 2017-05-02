@@ -42,14 +42,14 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	__webpack_require__(1);
 
-/***/ },
+/***/ }),
 /* 1 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -87,9 +87,9 @@
 	    _shareLinks2.default.init();
 	})();
 
-/***/ },
+/***/ }),
 /* 2 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	/*!
 	 * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -2470,9 +2470,9 @@
 	}(jQuery);
 
 
-/***/ },
+/***/ }),
 /* 3 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	/* ========================================================================
 	* Extends Bootstrap v3.1.1
@@ -2882,9 +2882,9 @@
 	})(jQuery);
 
 
-/***/ },
+/***/ }),
 /* 4 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';__webpack_require__(5);
 	
@@ -3068,18 +3068,18 @@
 	    });
 	}); // onready
 
-/***/ },
+/***/ }),
 /* 5 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	/*! Generate ID - v1.0.3 - 2014-09-18
 	* https://github.com/bboyle/Generate-ID
 	* Copyright (c) 2014 Ben Boyle; Licensed MIT */
 	!function(a){"use strict";a.fn.generateId=function(b){var c=1;return b=b?a.trim(b.toLowerCase().replace(/[^a-z0-9_]+/g," ")).replace(/\s+/g,"-"):"id",this.each(function(){var a;if(!this.getAttribute("id")){for(a=b;document.getElementById(a);)a=b+String(c),c++;this.setAttribute("id",a)}})}}(jQuery);
 
-/***/ },
+/***/ }),
 /* 6 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict'; /***********************************
 	              /////////////////
@@ -3128,9 +3128,9 @@
 	
 	// END QG Lightbox
 
-/***/ },
+/***/ }),
 /* 7 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) {return typeof obj;} : function (obj) {return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;}; /*! Form validation - v1.1.1 - 2014-04-09
 	                                                                                                                                                                                                                                                                                        * https://github.com/bboyle/form-validation
@@ -4720,9 +4720,9 @@
 	
 	//# sourceMappingURL=qg-forms.js.map
 
-/***/ },
+/***/ }),
 /* 8 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict'; /**
 	               * This file contains a random language scroller. It updates
@@ -4772,9 +4772,9 @@
 	  updateLanguage();
 	})(jQuery); /* end closure */
 
-/***/ },
+/***/ }),
 /* 9 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	/**
 	 ************************
@@ -4890,9 +4890,9 @@
 	
 	module.exports = progressiveReveal;
 
-/***/ },
+/***/ }),
 /* 10 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 	var activeSideNav = function () {
@@ -4932,9 +4932,9 @@
 	
 	module.exports = activeSideNav;
 
-/***/ },
+/***/ }),
 /* 11 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	"use strict";Object.defineProperty(exports, "__esModule", { value: true }); /* ========================================================================
 	                                                                            * General QLD GLUE utilities
@@ -4958,9 +4958,9 @@
 	
 	utils;
 
-/***/ },
+/***/ }),
 /* 12 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict'; /**
 	              * Adds page and user details to hidden inputs on the feedback form
@@ -4996,9 +4996,9 @@
 	module.exports = {
 	  init: init };
 
-/***/ },
+/***/ }),
 /* 13 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';function init() {
 	    var pageUrl = window.location.href;
@@ -5012,6 +5012,6 @@
 	module.exports = {
 	    init: init };
 
-/***/ }
+/***/ })
 /******/ ]);
 //# sourceMappingURL=main.js.map
