@@ -1,4 +1,4 @@
-**_NOTE - For any latest updates, please upgrade to NPM version of this package [https://github.com/qld-gov-au/web-template-release](https://github.com/qld-gov-au/web-template-release) _**
+**NOTE - Please upgrade to NPM version of this package [https://github.com/qld-gov-au/web-template-release](https://github.com/qld-gov-au/web-template-release) to get latest updates**
 
 # Queensland Government Web Template
 
