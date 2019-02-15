@@ -1,4 +1,4 @@
-**NOTE - This repository is no longer maintained. Please upgrade to NPM version of this package [https://github.com/qld-gov-au/web-template-release](https://github.com/qld-gov-au/web-template-release) to get latest updates**
+**NOTE - This repository is no longer maintained. Please upgrade to SWE3 [https://github.com/qld-gov-au/web-template-release](https://github.com/qld-gov-au/web-template-release) to get latest updates**
 
 # Queensland Government Web Template
 
