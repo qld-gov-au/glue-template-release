@@ -10,7 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/qld-gov-au/glue-template-release.git"
   },
-  "author": "Asif Amin <asif.amin@dsiti.qld.gov.au>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/qld-gov-au/glue-template-release/issues"
